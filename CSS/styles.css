@@ -146,7 +146,7 @@ color:var(--secondary-text-color-theme-light);
     text-decoration: none;
     height: 600px;
     padding-top: 200px;
-    padding-bottom:280px ;
+    padding-bottom:94px ;
 }
 
     .title_main{
@@ -158,8 +158,9 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color:var(--primary-text-color-theme-dark);
-
-     }
+margin-left: 452px;
+margin-right: 452px;
+ }
 
     .btn_main {
 font-weight: 700;
@@ -172,6 +173,9 @@ letter-spacing: 0.06em;
 background-color:var(--accent-color);
     color:var(--primary-text-color-theme-dark);
     margin-left: 692px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+   
   
   
 }
@@ -181,7 +185,12 @@ background-color:var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-
+.section_about_us{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 215px;
+    
+}
 
 .title_about_us {
 font-style: normal;
@@ -201,7 +210,11 @@ letter-spacing: 0.03em;
 color:var(--secondary-text-color-theme-light);
  }
 
-
+.section_what_we_do{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 215px;
+}
  
  .title_what_we_do {
 font-style: normal;
@@ -211,11 +224,14 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
     color:var(--primary-text-color-theme-light);
+    margin-bottom: 50px;
  }
 
  
  .section_our_team {
     background-color:var(--team-buttons-background-color);
+    padding-top: 94px;
+    padding-bottom: 0;
  }
  .title_our_team{
 font-style: normal;
@@ -225,8 +241,14 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
     color:var(--primary-text-color-theme-light);
+    margin-top: 94px;
+    margin-bottom: 50px;
  }
  
+.our_team{
+    margin-bottom: 94px;
+}
+
  .content_our_team {
         width: 270px;
     height: 368px;
@@ -234,6 +256,9 @@ letter-spacing: 0.03em;
     top: 1632px;
     color:var(--primary-text-color-theme-light);
     background-color:var(--primary-background-color) ;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
  }
 
  .subtitle_our_team {
@@ -254,8 +279,17 @@ text-align: center;
 letter-spacing: 0.03em;
     color:var(--secondary-text-color-theme-light);
  }
-  
-.second_logo{
+ 
+
+ .contacts_footer{
+    background-color:var(--secondary-background-color) ;
+    height: 252px;
+left: 0px;
+top: 2094px;
+margin-top: 60px;
+ }
+
+ .second_logo{
 font-family:'Raleway',sans-serif;
 font-weight: 700;
 font-size: 26px;
@@ -264,12 +298,18 @@ letter-spacing: 0.03em;
     color:var(--accent-color) ;
     color:var(--primary-text-color-theme-dark);
     text-decoration: none;
+    margin-left: 215px;
+    padding-top: 0;
 }
 
-  .contacts_footer{
-    background-color:var(--secondary-background-color) ;
-    
- }
+.address_footer{
+    margin-bottom: 60px;
+    margin-left: 215px;
+}
+.address_list{
+    margin-top: 20px;
+}
+
  .link_map {
     font-style: normal;
 font-weight: 400;
