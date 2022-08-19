@@ -227,11 +227,15 @@ letter-spacing: 0.03em;
     margin-bottom: 50px;
  }
 
+ .item_what_we_do:not(:last-child) {
+    margin-bottom: 20px;
+
+ }
  
  .section_our_team {
     background-color:var(--team-buttons-background-color);
     padding-top: 94px;
-    padding-bottom: 0;
+    padding-bottom: 1px;
  }
  .title_our_team{
 font-style: normal;
@@ -286,7 +290,7 @@ letter-spacing: 0.03em;
     height: 252px;
 left: 0px;
 top: 2094px;
-margin-top: 60px;
+padding-top: 1px;
  }
 
  .second_logo{
@@ -299,11 +303,10 @@ letter-spacing: 0.03em;
     color:var(--primary-text-color-theme-dark);
     text-decoration: none;
     margin-left: 215px;
-    padding-top: 0;
 }
 
 .address_footer{
-    margin-bottom: 60px;
+    
     margin-left: 215px;
 }
 .address_list{
