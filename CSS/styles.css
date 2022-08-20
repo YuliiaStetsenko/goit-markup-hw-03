@@ -110,12 +110,13 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--primary-text-color-theme-light);
 }
-
+ 
 .contact_mail {
     margin-left: 1052px;
     margin-right: 387px;
     
 }
+
 
 .contact_tel{
     margin-left: 1243px;
@@ -192,6 +193,11 @@ background-color:var(--accent-color);
     
 }
 
+.about_us{
+    display: flex;
+   
+}
+
 .title_about_us {
 font-style: normal;
 font-weight: 700;
@@ -227,8 +233,12 @@ letter-spacing: 0.03em;
     margin-bottom: 50px;
  }
 
- .item_what_we_do:not(:last-child) {
-    margin-bottom: 20px;
+.what_we_do{
+    display: flex;
+}
+
+ .item_what_we_do{
+    margin-left: 20px;
 
  }
  
@@ -251,6 +261,8 @@ letter-spacing: 0.03em;
  
 .our_team{
     margin-bottom: 94px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
  .content_our_team {
@@ -289,8 +301,8 @@ letter-spacing: 0.03em;
     background-color:var(--secondary-background-color) ;
     height: 252px;
 left: 0px;
-top: 2094px;
-padding-top: 1px;
+top: 1628px;
+
  }
 
  .second_logo{
@@ -336,6 +348,18 @@ color:var(--secondary-text-color-theme-dark)
     color: var(--accent-color);
  }
 
+.buttons_services {
+    width: 1170px;
+height: 1360px;
+left: 215px;
+top: 174px;
+}
+
+.button_list{
+    margin-left: 512px;
+    margin-bottom:34px;
+    display: flex;
+}
 
 .button_main{
 font-weight: 500;
@@ -352,6 +376,17 @@ color:var(--primary-text-color-theme-light);
     color: var(--primary-text-color-theme-dark);
 }
 
+.services_main{
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 30px;
+   row-gap: 30px;
+}
+
+.content_services_main{
+    border: 1px solid #EEEEEE;
+}
+
 .subtitle_services_main {
 font-weight: 700;
 font-size: 18px;
@@ -359,6 +394,7 @@ line-height: 2;
 letter-spacing: 0.06em;
 color:var(--primary-text-color-theme-light);
 }
+
 .item_services_main {
 font-weight: 400;
 font-size: 16px;
