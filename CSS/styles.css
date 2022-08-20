@@ -39,12 +39,8 @@
     display: block;
   }
 
-  *{
-    box-sizing: border-box;
-}
-
+ 
   button {
-    font-family: inherit;
     cursor: pointer;
     border:none;
   }
@@ -69,10 +65,8 @@ body {
          
 }
 
-.primary_container{
-    width: 1600px;
-    height: 2346px;
-    
+.container {
+    width: 1170px;
 }
 
 .page_header {
@@ -129,8 +123,6 @@ color:var(--secondary-text-color-theme-light);
 .current {
     color:var(--accent-color);
 }
-
-
 
 .section_main {
     background-color:var(--secondary-background-color);
