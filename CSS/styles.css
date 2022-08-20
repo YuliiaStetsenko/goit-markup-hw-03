@@ -39,7 +39,7 @@
     display: block;
   }
 
-  * {
+  *{
     box-sizing: border-box;
 }
 
@@ -66,19 +66,19 @@ body {
     letter-spacing:0.03em;
     color:var(--primary-text-color-theme-light);
     background-color:var(--primary-background-color);
-    position: relative;
+         
+}
+
+.primary_container{
     width: 1600px;
-    height: 2928px;
+    height: 2346px;
     
 }
 
 .page_header {
 padding-top:24px ;
 padding-bottom:25px ;
-}
-
-.page_main{
-    
+border: 1px solid #ECECEC;
 }
 
 
@@ -90,8 +90,7 @@ padding-bottom:25px ;
     letter-spacing: 0.03em;
         color:var(--first-logo-text-color);
         text-decoration: none;
-    margin-left: 215px;
-margin-right: 1240px;
+   
 
     }
     .item_web{
@@ -99,8 +98,8 @@ margin-right: 1240px;
     }
 
     .menu {
-        margin-left: 453px;
-        margin-right: 866px;
+        margin-right: auto;
+        margin-left: auto;
     }
  
     .menu_link  {
@@ -111,18 +110,7 @@ letter-spacing: 0.02em;
 color:var(--primary-text-color-theme-light);
 }
  
-.contact_mail {
-    margin-left: 1052px;
-    margin-right: 387px;
-    
-}
 
-
-.contact_tel{
-    margin-left: 1243px;
-    margin-right: 215px;
-   
-}
 
 .contact_link {
 font-weight: 500;
@@ -142,12 +130,13 @@ color:var(--secondary-text-color-theme-light);
     color:var(--accent-color);
 }
 
+
+
 .section_main {
     background-color:var(--secondary-background-color);
     text-decoration: none;
     height: 600px;
-    padding-top: 200px;
-    padding-bottom:94px ;
+   
 }
 
     .title_main{
@@ -159,44 +148,51 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color:var(--primary-text-color-theme-dark);
-margin-left: 452px;
-margin-right: 452px;
+padding-top: 200px;
+padding-left: 452px;
+padding-right: 452px;
  }
 
     .btn_main {
 font-weight: 700;
 font-size: 16px;
 line-height: 1.86;
-display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 background-color:var(--accent-color);
     color:var(--primary-text-color-theme-dark);
+    border-radius: 4px;
+    margin-top: 40px;
     margin-left: 692px;
-    margin-top: 30px;
-    margin-bottom: 200px;
+    margin-right: 692px;
+    width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+    
    
-  
-  
 }
 
 .btn_main:hover , .btn_main:focus {
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
 }
 
 .section_about_us{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    margin-top: 94px;
+    margin-bottom: 94px;
     padding-left: 215px;
+    padding-right: 215px;
     
 }
 
 .about_us{
-    display: flex;
-   
+display: flex;
+column-gap: 30px;
 }
+
 
 .title_about_us {
 font-style: normal;
@@ -206,6 +202,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
     color:var(--primary-text-color-theme-light);
+    margin-bottom: 10px;
 }
  .text_about_us{
 font-style: normal;
@@ -217,9 +214,9 @@ color:var(--secondary-text-color-theme-light);
  }
 
 .section_what_we_do{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    margin-bottom: 94px;
     padding-left: 215px;
+    padding-right: 215px;
 }
  
  .title_what_we_do {
@@ -235,17 +232,14 @@ letter-spacing: 0.03em;
 
 .what_we_do{
     display: flex;
+    column-gap: 30px;
 }
 
- .item_what_we_do{
-    margin-left: 20px;
 
- }
  
  .section_our_team {
     background-color:var(--team-buttons-background-color);
-    padding-top: 94px;
-    padding-bottom: 1px;
+   
  }
  .title_our_team{
 font-style: normal;
@@ -255,14 +249,17 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
     color:var(--primary-text-color-theme-light);
-    margin-top: 94px;
-    margin-bottom: 50px;
+    padding-top: 94px;
+   
+   
  }
  
 .our_team{
-    margin-bottom: 94px;
-    display: flex;
-    flex-wrap: wrap;
+   margin-top: 50px;
+   display: flex;
+   padding-bottom: 94px;
+   column-gap: 30px;
+   padding-left: 215px;
 }
 
  .content_our_team {
@@ -299,10 +296,9 @@ letter-spacing: 0.03em;
 
  .contacts_footer{
     background-color:var(--secondary-background-color) ;
-    height: 252px;
-left: 0px;
-top: 1628px;
-
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
  }
 
  .second_logo{
@@ -314,15 +310,20 @@ letter-spacing: 0.03em;
     color:var(--accent-color) ;
     color:var(--primary-text-color-theme-dark);
     text-decoration: none;
-    margin-left: 215px;
+    padding-left: 215px;
+    
+    
 }
 
-.address_footer{
-    
-    margin-left: 215px;
-}
+
 .address_list{
-    margin-top: 20px;
+   margin-top: 20px;
+   padding-left: 215px;
+    
+}
+
+.item_mail , .item_tel {
+    margin-top: 9px;
 }
 
  .link_map {
@@ -356,9 +357,11 @@ top: 174px;
 }
 
 .button_list{
-    margin-left: 512px;
-    margin-bottom:34px;
     display: flex;
+    margin-bottom:50px ;
+    padding-top: 94px;
+padding-left: 512px;
+column-gap: 8px;
 }
 
 .button_main{
@@ -369,6 +372,7 @@ text-align: center;
 letter-spacing: 0.03em;
 background:var(--team-buttons-background-color);
 color:var(--primary-text-color-theme-light);
+border-radius: 4px;
 }
 
 .button_main:hover, .button_main:focus {
@@ -377,14 +381,17 @@ color:var(--primary-text-color-theme-light);
 }
 
 .services_main{
-   display: flex;
-   flex-wrap: wrap;
-   column-gap: 30px;
-   row-gap: 30px;
+    display: flex;
+    column-gap: 30px;
+   
 }
 
 .content_services_main{
-    border: 1px solid #EEEEEE;
+    width: 370px;
+height: 404px;
+left: 1015px;
+top: 1130px;
+border: 1px solid #EEEEEE;
 }
 
 .subtitle_services_main {
