@@ -77,9 +77,7 @@ body {
     padding-right: 15px;
 }
 
-.current {
-    color:var(--accent-color);
-}
+
 
 /* ========================  HEADER  ======================== */
 
@@ -148,6 +146,9 @@ color:var(--secondary-text-color-theme-light);
  color:var(--accent-color)
 }
  
+.current {
+    color:var(--accent-color);
+}
 /* ========================  MAIN  ======================== */
 
 .section_main {
