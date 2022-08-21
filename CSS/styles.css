@@ -10,7 +10,8 @@
 --secondary-background-color:#2F303A;
 --accent-color:#2196F3;
 --team-buttons-background-color:#F5F4FA;
-
+--border-color-line:#ECECEC;
+--border-color-line-card:#EEEEEE;
 }
 
 
@@ -237,6 +238,7 @@ color:var(--secondary-text-color-theme-light);
 .page_what_we_do {
 padding-top: 94px;
 padding-bottom: 94px;
+
 }
  
  .title_what_we_do {
@@ -257,9 +259,11 @@ letter-spacing: 0.03em;
 
 /* ========================  OUR TEAM  ======================== */
  
+.page_our_team{
+    background-color:var(--team-buttons-background-color);
+}
 
 .section_our_team {
-    background-color:var(--team-buttons-background-color);
     padding-top: 94px;
    
  }
@@ -372,7 +376,7 @@ color:var(--secondary-text-color-theme-dark)
 /* ========================  MAIN PORTFOLIO  ======================== */
  
 .page_header{
-    border: 1px solid #ECECEC;
+    border: 1px solid var(--border-color-line);
 }
 
 .page_porfolio{
@@ -416,6 +420,7 @@ top: 174px;
     color: var(--primary-text-color-theme-dark);
 }
 
+
 .services_main{
     display: flex;
     column-gap: 30px;
@@ -425,7 +430,7 @@ top: 174px;
    }
 
 .text_border_line{
-    border: 1px solid #EEEEEE;
+    border: 1px solid var(--border-color-line-card);
     border-top:none;
     padding:20px 24px;
 }
