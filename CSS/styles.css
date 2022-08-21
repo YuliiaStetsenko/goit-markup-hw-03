@@ -287,9 +287,14 @@ letter-spacing: 0.03em;
 
  .contacts_footer{
     background-color:var(--secondary-background-color) ;
+<<<<<<< Updated upstream
     padding-top: 60px;
     padding-bottom: 60px;
     
+=======
+  
+
+>>>>>>> Stashed changes
  }
 
  .second_logo{
@@ -398,4 +403,5 @@ letter-spacing: 0.03em;
 color:var(--secondary-text-color-theme-light);
 }
  
+
 
