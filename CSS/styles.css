@@ -56,6 +56,10 @@
     padding-left: 0;
   }
 
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family:var(--primary-font);
     font-size: 14px;
@@ -66,13 +70,17 @@ body {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .page_header {
 padding-top:24px ;
 padding-bottom:25px ;
-border: 1px solid #ECECEC;
+
 }
 
 
@@ -125,10 +133,11 @@ color:var(--secondary-text-color-theme-light);
 }
 
 .section_main {
-    background-color:var(--secondary-background-color);
     text-decoration: none;
-    height: 600px;
-   
+    height: 600px;  
+}
+.main_bg{
+    background-color:var(--secondary-background-color);
 }
 
     .title_main{
@@ -141,8 +150,6 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color:var(--primary-text-color-theme-dark);
 padding-top: 200px;
-padding-left: 452px;
-padding-right: 452px;
  }
 
     .btn_main {
@@ -155,15 +162,7 @@ letter-spacing: 0.06em;
 background-color:var(--accent-color);
     color:var(--primary-text-color-theme-dark);
     border-radius: 4px;
-    margin-top: 40px;
-    margin-left: 692px;
-    margin-right: 692px;
-    width: 216px;
-height: 50px;
-left: 692px;
-top: 430px;
-    
-   
+     
 }
 
 .btn_main:hover , .btn_main:focus {
@@ -207,8 +206,7 @@ color:var(--secondary-text-color-theme-light);
 
 .section_what_we_do{
     margin-bottom: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
+    
 }
  
  .title_what_we_do {
@@ -249,9 +247,9 @@ letter-spacing: 0.03em;
 .our_team{
    margin-top: 50px;
    display: flex;
-   padding-bottom: 94px;
+   
    column-gap: 30px;
-   padding-left: 215px;
+   
 }
 
  .content_our_team {
@@ -286,6 +284,7 @@ letter-spacing: 0.03em;
  }
  
 
+
  .contacts_footer{
     background-color:var(--secondary-background-color) ;
     padding-top: 60px;
@@ -301,16 +300,13 @@ line-height: 1.19;
 letter-spacing: 0.03em;
     color:var(--accent-color) ;
     color:var(--primary-text-color-theme-dark);
-    text-decoration: none;
-    padding-left: 215px;
-    
-    
+    text-decoration: none; 
 }
 
 
 .address_list{
    margin-top: 20px;
-   padding-left: 215px;
+   
     
 }
 
