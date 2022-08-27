@@ -54,6 +54,7 @@ body {
 
   address{
     font-style: normal;
+    margin-top: 20px;
   }
  
   button {
@@ -250,7 +251,7 @@ color:var(--secondary-text-color-theme-light);
 /* ========================  WHAT WE DO  ======================== */
 
 .page_what_we_do {
-padding:94px 94px;
+padding-top:0;
 }
  .title_what_we_do {
 font-style: normal;
@@ -343,13 +344,8 @@ letter-spacing: 0.03em;
 }
 
 
-.address_list{
-   margin-top: 20px;
-   
-    
-}
 
-.item_mail , .item_tel {
+.address_item:not(:first-child) {
     margin-top: 9px;
 }
 
